@@ -8,10 +8,10 @@ param (
     [string]$text 
 )
 
-$hookurl = 'YOUR-DISCORD-WEBHOOK'
+$hookurl = 'https://discord.com/api/webhooks/1113966392174194758/XpWl5a-KGN8LzpdHAnzYxF6ukUtCTjvugeTStn0Xt1FO9RJwtIAVxmnqNnOFUD4hAdA6'
 
 $Body = @{
-  'username' = $env:username
+  'username' = 'Flipper Webhook Bot"
   'content' = $text
 }
 
