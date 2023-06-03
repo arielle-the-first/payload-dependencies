@@ -11,7 +11,7 @@ param (
 $hookurl = 'https://discord.com/api/webhooks/1113966392174194758/XpWl5a-KGN8LzpdHAnzYxF6ukUtCTjvugeTStn0Xt1FO9RJwtIAVxmnqNnOFUD4hAdA6'
 
 $Body = @{
-  'username' = 'Flipper Webhook Bot"
+  'username' = 'Flipper Webhook Bot'
   'content' = $text
 }
 
